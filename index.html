@@ -21,14 +21,14 @@ body, html {height: 100%}
 
 <div class="bgimg w3-display-container w3-text-white">
   <div class="w3-display-middle w3-xxlarge">
-    <p>Next Trek Cyclery</p>
+    <p><b>Next Trek Cyclery</b></p>
   </div>
   <div class="w3-display-topleft w3-container w3-xlarge">
-    <!-- <p><button onclick="document.getElementById('menu').style.display='block'" class="w3-button w3-black">services</button></p> -->
+    <p><button onclick="document.getElementById('menu').style.display='block'" class="w3-button w3-black">services</button></p>
     <p><button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-black">contact</button></p>
   </div>
   <div class="w3-display-bottomleft w3-container">
-    <p class="w3-xlarge">custom cycles | service & repairs</p>
+    <p class="w3-xlarge">home cyclery | service & repairs</p>
     <p class="w3-large">monday - saturday | contact for info</p>
     <p class="w3-large">st matthews, louisville, ky</p>
   </div>
@@ -39,31 +39,51 @@ body, html {height: 100%}
   <div class="w3-modal-content w3-animate-zoom">
     <div class="w3-container w3-black w3-display-container">
       <span onclick="document.getElementById('menu').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
-      <h1>Starters</h1>
+      <h1>Tune Up</h1>
     </div>
     <div class="w3-container">
-      <h5>Tomato Soup <b>$2.50</b></h5>
-      <h5>Chicken Salad <b>$3.50</b></h5>
-      <h5>Bread and Butter <b>$1.00</b></h5>
+      <h5>Premium <b>$75</b></h5>
+      <h5>Standard <b>$45</b></h5>
+      <h5>Single Speed <b>$35</b></h5>
+      <br>
+      <h5>&emsp;Standard Includes:</h5>
+        <h6>&emsp;-Adjust brakes</h6>
+        <h6>&emsp;-Adjust derailleurs</h6>
+        <h6>&emsp;-On-bike Wheel True</h6>
+        <h6>&emsp;-Lube Cables and Drivetrain</h6>
+        <h6>&emsp;-Check and Clean Chain</h6>
+        <h6>&emsp;-Repair Flats</h6>
+        <h6>&emsp;-Bike Cleaning</h6>
+      <br>
+      <h5>&emsp;Premium Includes:</h6>
+        <h6>&emsp;-Off Bike Wheel True</h6>
+        <h6>&emsp;-Replace cables</h6>
+        <h6>&emsp;-Off Bike Wheel True</h6>
     </div>
     <div class="w3-container w3-black">
-      <h1>Main Courses</h1>
+      <h1>Standard Shop Rate</h1>
     </div>
     <div class="w3-container">
-      <h5>Grilled Fish and Potatoes <b>$8.50</b></h5>
-      <h5>Italian Pizza <b>$5.50</b></h5>
-      <h5>Veggie Pasta <b>$4.00</b></h5>
-      <h5>Chicken and Potatoes <b>$6.50</b></h5>
-      <h5>Deluxe Burger <b>$5.00</b></h5>
+      <h5><b>$65</b> per hour</h5>
     </div>
     <div class="w3-container w3-black">
-      <h1>Desserts</h1>
+      <h1>Tube & Tire Repair</h1>
     </div>
     <div class="w3-container">
-      <h5>Fruit Salad <b>$2.50</b></h5>
-      <h5>Ice cream <b>$2.00</b></h5>
-      <h5>Chocolate Cake <b>$4.00</b></h5>
-      <h5>Cheese <b>$5.50</b></h5>
+      <h5>Flat Repair/Patch <b>$5</b></h5>
+      <h5>Flat Repair/Tube Replacement <b>$10</b></h5>
+      <h5>Tire Replacement <b>$10 + cost of tire</b></h5>
+    </div>
+    <div class="w3-container w3-black">
+      <h1>A La Carte Services</h1>
+    </div>
+    <div class="w3-container">
+      <h5>Brake Adjustment <b>$12</b></h5>
+      <h5>Derailleur Adjustment <b>$12</b></h5>
+      <h5>Chain Install <b>$8 + cost of chain</b></h5>
+      <h5>Clean Drivetrain <b>$25</b></h5>
+      <h5>Install Bar Tape <b>$6 + cost of tape</b></h5>
+      <h5>Install Computer <b>$10</b></h5>
     </div>
   </div>
 </div>
@@ -76,7 +96,7 @@ body, html {height: 100%}
       <h1>Contact</h1>
     </div>
     <div class="w3-container">
-      <p>Send me a message and let me know what kind of repair you need:</p>
+      <p>Send me an <a href="sms:1-502-437-4381">SMS</a> or message below and let me know what kind of repair you need:</p>
       <form name="contact" method="POST" action="/" netlify>
         <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
         <p><input class="w3-input w3-padding-16 w3-border" type="email" placeholder="Email" required name="Email"></p>
