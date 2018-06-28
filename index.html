@@ -19,7 +19,7 @@
       }
       .hidden {
           display: none;
-      }
+      } 
     </style>
     <script>
       !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t,e){var n=document.createElement("script");n.type="text/javascript";n.async=!0;n.src="https://cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(n,a);analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.1.0";
@@ -30,95 +30,94 @@
   </head>
 <body>
 
-<div class="bgimg w3-display-container w3-text-white">
-  <!-- <div class="w3-display-middle w3-xxlarge">
-    <p><b>next trek cyclery</b></p>
-  </div> -->
-  <div class="w3-display-topleft w3-container w3-xlarge">
-    <p><button onclick="document.getElementById('menu').style.display='block'" class="w3-button w3-black">services</button></p>
-    <p><button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-black">contact</button></p>
+  <div class="bgimg w3-display-container w3-text-white">
+    <!-- <div class="w3-display-middle w3-xxlarge">
+      <p><b>next trek cyclery</b></p>
+    </div> -->
+    <div class="w3-display-topleft w3-container w3-xlarge">
+      <p><button onclick="document.getElementById('menu').style.display='block'" class="w3-button w3-black">services</button></p>
+      <p><button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-black">contact</button></p>
+    </div>
+    <div class="w3-display-bottomleft w3-container">
+      <p class="w3-xxlarge"><b>Next Trek</b></p>
+      <p class="w3-xlarge">home cyclery | service & repairs</p>
+      <p class="w3-large">monday - saturday | contact for info</p>
+      <p class="w3-large">st matthews, louisville, ky</p>
+    </div>
   </div>
-  <div class="w3-display-bottomleft w3-container">
-    <p class="w3-xxlarge"><b>Next Trek</b></p>
-    <p class="w3-xlarge">home cyclery | service & repairs</p>
-    <p class="w3-large">monday - saturday | contact for info</p>
-    <p class="w3-large">st matthews, louisville, ky</p>
-  </div>
-</div>
 
 <!-- Menu Modal -->
-<div id="menu" class="w3-modal">
-  <div class="w3-modal-content w3-animate-zoom">
-    <div class="w3-container w3-black w3-display-container">
-      <span onclick="document.getElementById('menu').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
-      <h1>Tune Up</h1>
-    </div>
-    <div class="w3-container">
-      <h5>Premium <b>$75</b></h5>
-      <h5>Standard <b>$45</b></h5>
-      <h5>Single Speed <b>$35</b></h5>
-      <br>
-      <h5>&emsp;Standard Includes:</h5>
-        <h6>&emsp;-Adjust brakes</h6>
-        <h6>&emsp;-Adjust derailleurs</h6>
-        <h6>&emsp;-On-bike Wheel True</h6>
-        <h6>&emsp;-Lube Cables and Drivetrain</h6>
-        <h6>&emsp;-Check and Clean Chain</h6>
-        <h6>&emsp;-Repair Flats</h6>
-        <h6>&emsp;-Bike Cleaning</h6>
-      <br>
-      <h5>&emsp;Premium Includes:</h6>
-        <h6>&emsp;-Off Bike Wheel True</h6>
-        <h6>&emsp;-Replace cables</h6>
-        <h6>&emsp;-Off Bike Wheel True</h6>
-    </div>
-    <div class="w3-container w3-black">
-      <h1>Shop Rate</h1>
-    </div>
-    <div class="w3-container">
-      <h5><b>$65</b> per hour</h5>
-    </div>
-    <div class="w3-container w3-black">
-      <h1>Tube & Tire Repair</h1>
-    </div>
-    <div class="w3-container">
-      <h5>Flat Repair/Patch <b>$5</b></h5>
-      <h5>Flat Repair/Tube Replacement <b>$10</b></h5>
-      <h5>Tire Replacement <b>$10 + cost of tire</b></h5>
-    </div>
-    <div class="w3-container w3-black">
-      <h1>A La Carte Services</h1>
-    </div>
-    <div class="w3-container">
-      <h5>Brake Adjustment <b>$12</b></h5>
-      <h5>Derailleur Adjustment <b>$12</b></h5>
-      <h5>Chain Install <b>$8 + cost of chain</b></h5>
-      <h5>Clean Drivetrain <b>$25</b></h5>
-      <h5>Install Bar Tape <b>$6 + cost of tape</b></h5>
-      <h5>Install Computer <b>$10</b></h5>
+  <div id="menu" class="w3-modal">
+    <div class="w3-modal-content w3-animate-zoom">
+      <div class="w3-container w3-black w3-display-container">
+        <span onclick="document.getElementById('menu').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+        <h1>Tune Up</h1>
+      </div>
+      <div class="w3-container">
+        <h5>Premium <b>$75</b></h5>
+        <h5>Standard <b>$45</b></h5>
+        <h5>Single Speed <b>$35</b></h5>
+        <br>
+        <h5>&emsp;Standard Includes:</h5>
+          <h6>&emsp;-Adjust brakes</h6>
+          <h6>&emsp;-Adjust derailleurs</h6>
+          <h6>&emsp;-On-bike Wheel True</h6>
+          <h6>&emsp;-Lube Cables and Drivetrain</h6>
+          <h6>&emsp;-Check and Clean Chain</h6>
+          <h6>&emsp;-Repair Flats</h6>
+          <h6>&emsp;-Bike Cleaning</h6>
+        <br>
+        <h5>&emsp;Premium Includes:</h6>
+          <h6>&emsp;-Off Bike Wheel True</h6>
+          <h6>&emsp;-Replace cables</h6>
+          <h6>&emsp;-Off Bike Wheel True</h6>
+      </div>
+      <div class="w3-container w3-black">
+        <h1>Shop Rate</h1>
+      </div>
+      <div class="w3-container">
+        <h5><b>$65</b> per hour</h5>
+      </div>
+      <div class="w3-container w3-black">
+        <h1>Tube & Tire Repair</h1>
+      </div>
+      <div class="w3-container">
+        <h5>Flat Repair/Patch <b>$5</b></h5>
+        <h5>Flat Repair/Tube Replacement <b>$10</b></h5>
+        <h5>Tire Replacement <b>$10 + cost of tire</b></h5>
+      </div>
+      <div class="w3-container w3-black">
+        <h1>A La Carte Services</h1>
+      </div>
+      <div class="w3-container">
+        <h5>Brake Adjustment <b>$12</b></h5>
+        <h5>Derailleur Adjustment <b>$12</b></h5>
+        <h5>Chain Install <b>$8 + cost of chain</b></h5>
+        <h5>Clean Drivetrain <b>$25</b></h5>
+        <h5>Install Bar Tape <b>$6 + cost of tape</b></h5>
+        <h5>Install Computer <b>$10</b></h5>
+      </div>
     </div>
   </div>
-</div>
 
 <!-- Contact Modal -->
-<div id="contact" class="w3-modal">
-  <div class="w3-modal-content w3-animate-zoom">
-    <div class="w3-container w3-black">
-      <span onclick="document.getElementById('contact').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
-      <h1>Contact</h1>
-    </div>
-    <div class="w3-container">
-      <p>Send me an <a href="sms:1-502-437-4381">SMS</a> or message below and let me know what kind of repair you need:</p>
-      <form name="contact" method="POST" action="/" netlify-honeypot="bot-field" netlify>
-        <p class="hidden"><label>Don’t fill this out if you're human: <input name="bot-field" /></label></p>
-        <p><input class="w3-input w3-padding-16 w3-border" type="email" placeholder="Email (Optional)" name="Email"></p>
-        <p><input class="w3-input w3-padding-16 w3-border" type="phone" placeholder="Phone" required name="Phone"></p>
-        <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Service Request" required name="Message"></p>
-        <p><button class="w3-button w3-black" type="submit">SEND MESSAGE</button></p>
-      </form>
+  <div id="contact" class="w3-modal">
+    <div class="w3-modal-content w3-animate-zoom">
+      <div class="w3-container w3-black">
+        <span onclick="document.getElementById('contact').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+        <h1>Contact</h1>
+      </div>
+      <div class="w3-container">
+        <p>Send me an <a href="sms:1-502-437-4381">SMS</a> or message below and let me know what kind of repair you need:</p>
+        <form name="contact" method="POST" action="/" netlify-honeypot="bot-field" netlify>
+          <p class="hidden"><label>Don’t fill this out if you're human: <input name="bot-field" /></label></p>
+          <p><input class="w3-input w3-padding-16 w3-border" type="email" placeholder="Email (Optional)" name="Email"></p>
+          <p><input class="w3-input w3-padding-16 w3-border" type="phone" placeholder="Phone" required name="Phone"></p>
+          <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Service Request" required name="Message"></p>
+          <p><button class="w3-button w3-black" type="submit">SEND MESSAGE</button></p>
+        </form>
+      </div>
     </div>
   </div>
-</div>
-
 </body>
 </html>
